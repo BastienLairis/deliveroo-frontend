@@ -11,8 +11,6 @@ function App() {
   const [data, setData] = useState();
   const [isLoading, setIsLoading] = useState(true);
 
-  const hello = "Hello Orion 2022";
-
   useEffect(() => {
     const fetchData = async () => {
       const response = await axios.get(
